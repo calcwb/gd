@@ -40,7 +40,7 @@
             <div id="search" class="pull-right">
               <form class="form-inline" action="/search/">
                 <div class="input-append">
-                  <input type="text" class="input-small busca" id="s" name="s">
+                  <input type="text" class="input-small busca" id="buscatop" name="buscatop">
                   <button type="submit" class="btn"><i class="icon-search"></i></button>
                 </div>
               </form>
@@ -58,7 +58,7 @@
               </ul>
               <form class="navbar-search form-search pull-right tools" action='/search/'>
                 <div class="input-append">
-                  <input type="text" class="input-small busca search-query"  id="s" name="s">
+                  <input type="text" class="input-small busca search-query"  id="buscabar" name="buscabar">
                   <button type="submit" class="btn"><i class="icon-search"></i></button>
                 </div>
               </form>
@@ -100,9 +100,7 @@
                 <img src="{{ url_for('static', filename='img/loading.gif') }}"
                      alt="Carregando, por favor aguarde" class="loading">
               </div>
-              <p>
               <div class="close close-tos">X</div>
-              </p>
             </div>
 <!-- Signup Modal -->
 
