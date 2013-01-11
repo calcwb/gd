@@ -15,6 +15,7 @@
 <meta property="og:title" content="{{ video.title }}" /> 
 <meta property="og:description" content="{{ video.description }}" />
 <meta property="og:image" content="{{video.thumbnail}}" />
+<<<<<<< HEAD
 <meta property="og:video" content="{{base_url}}{{ url_for('static', filename="me/build/flashmediaelement.swf") }}?controls=true&file={{sources['video/x-flv']}}" /> 
 <meta property="og:video:type" content="application/x-shockwave-flash">
 <meta property="og:video:height" content="{{ video.video_height }}" /> 
@@ -26,7 +27,6 @@
 <meta property="twitter:player:width" content="{{ video.video_width }}">
 <meta property="twitter:player:height" content="{{ video.video_height }}">
 {% endblock %}
-
 
 {% block css %}
 <link rel="stylesheet" href="{{ url_for('.static', filename='css/gallery.css') }}">
