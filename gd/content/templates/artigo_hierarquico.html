@@ -39,7 +39,7 @@
   <a id="add-comment" href="#form-com"><img src="{{ url_for('static', filename='img/comment_add.png') }}"></a>
 </div>
 
-<div class="news" id="news">
+<div class="{{ post.categories[0].name }}" id="news">
   <div class="container">
     <div class="row">
 
@@ -67,7 +67,7 @@
                 {%if child.title%}
                 <h3 class="post-child-title">{{child.title|safe}}</h3>
                 {%endif%}
-                <div class="post-child-content" data-id="{{child.id}}" 
+                <div class="post-child-content" data-id="{{child.id}}"
 {% if HABILITAR_SANFONA == 'true' %}
                 style="display:none"
 {% endif %}
