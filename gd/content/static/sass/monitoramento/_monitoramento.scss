@@ -543,9 +543,10 @@
 }
 
 #monitoramento.obra .govresp .video {
-    width: 435px;
-    float: right;
+    /* width: 435px;
+    /* float: right;
     padding: 10px;
+    margin-left: 50%;
 }
 
 #monitoramento.obra .comofunciona,
@@ -1069,7 +1070,55 @@
 }
 
 @media (max-width: 767px) {
+
   #monitoramento .container {
-      overflow: visible;
+    overflow: visible;
   }
+
+  .monitoramento section {
+    padding-top: 20px;
+  }
+
+  #monitoramento.obra .head h2 {
+    font-size: 22pt;
+  }
+
+  #monitoramento.obra .head .content {
+    padding: 0 20px;
+  }
+
+  #monitoramento.obra .barra .geral li.field {
+    float: none;
+    display: block;
+    clear: both;
+  }
+
+  #monitoramento.obra .barra .geral .dados-obra li.result {
+    width: 90%;
+  }
+
+  #monitoramento.obra .info {
+    padding: 0 20px;
+  }
+
+  #monitoramento.obra .updates > p,
+  #monitoramento.obra .botoesparticipar {
+    margin-left: 0;
+  }
+
+  #monitoramento.obra .govresp .content,
+  #monitoramento.obra .timeline,
+  #monitoramento.obra .govresp,
+  #monitoramento.obra .update {
+    width: auto;
+  }
+
+  #monitoramento.obra .updates .govresp h2 {
+    font-size: 18pt;
+  }
+
+  #monitoramento.obra .govresp .video {
+    width: auto;
+  }
+
 }
