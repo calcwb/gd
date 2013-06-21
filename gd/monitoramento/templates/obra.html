@@ -190,9 +190,9 @@ $(window).load(function () {
               <a href="/monitore" class="btn btn-info">Voltar</a>
             </div>
 
-            <div class="separador"></div>
+            <div class="separador  visible-desktop"></div>
 
-            <div class="nossodados">
+            <div class="nossodados  visible-desktop">
               <h3>Nossos dados</h3>
               <p>
                 As informações das obras são dados abertos. Acesse a API:
@@ -201,9 +201,9 @@ $(window).load(function () {
               <!-- <a href="#" class="xml">XML</a> -->
             </div>
 
-            <div class="separador"></div>
+            <div class="separador  visible-desktop"></div>
 
-            <div class="acesso">
+            <div class="acesso  visible-desktop">
               <h3>Acesso à informação</h3>
                 Se você quiser obter alguma informação específica e de
                 maneira personalizada, utilize a Lei de Acesso à
@@ -215,9 +215,9 @@ $(window).load(function () {
               </a>
             </div>
 
-            <div class="separador"></div>
+            <div class="separador visible-desktop"></div>
 
-            <div class="acesso ">
+            <div class="acesso visible-desktop">
               <p>Desenvolvido em parceria com a</p>
               <a href="http://portal.fgv.br/" class="parceiro">
                 <img src="{{ url_for('.static', filename='fgv.gif' ) }}" width="40%">
@@ -390,7 +390,7 @@ $(window).load(function () {
             <div class="timeline">
 
               {%if timeline[1:]%}
-              <div class="line"></div>
+              <div class="line visible-desktop"></div>
               {%endif%}
 
               {%for update in timeline[1:]%}
@@ -411,7 +411,7 @@ $(window).load(function () {
               {%elif mostra_items %} {#===========================================================================#}
               <div class="update {{ update.format }}">
 
-                <div class="seta">
+                <div class="seta visible-desktop">
                   <span class="mark"> <span class="dot"></span> </span>
                 </div>
 
