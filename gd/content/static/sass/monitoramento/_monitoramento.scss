@@ -497,7 +497,7 @@
 }
 
 #monitoramento.obra .govresp .content .text {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px;
 }
 
@@ -543,10 +543,9 @@
 }
 
 #monitoramento.obra .govresp .video {
-    /* width: 435px;
-    /* float: right;
+    float: right;
+    width: 350px;
     padding: 10px;
-    margin-left: 50%;
 }
 
 #monitoramento.obra .comofunciona,
@@ -1118,7 +1117,8 @@
   }
 
   #monitoramento.obra .govresp .video {
-    width: auto;
+    width: 100%;
+    padding: 10px 0;
   }
 
 }
